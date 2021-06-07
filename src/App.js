@@ -2,11 +2,11 @@ import './App.css';
 
 import React from 'react';
 
-import NavBar from './components/NavBar';
+import NavBar from './assets/NavBar';
 
-import Footer from './components/Footer';
-import Movies from "./components/Movies";
-import Series from "./components/Series";
+import Footer from './assets/Footer';
+import Movies from "./assets/Movies";
+import Series from "./assets/Series";
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
