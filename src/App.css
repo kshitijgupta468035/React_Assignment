@@ -115,7 +115,7 @@
 }
 
 .ser, .mov {
-  background-image: url("../src/seires.jpg");
+  background-image: url("../src/images/seires.jpg");
   width: 200px;
   height: 150px;
   background-position: center;
@@ -212,15 +212,15 @@ h3 {
 }
 
 .logo-image-1 {
-  background-image: url("../src/appstore.jpg");
+  background-image: url("../src/images/appstore.jpg");
 }
 
 .logo-image-2 {
-  background-image: url("../src/googleplay.jpg");
+  background-image: url("../src/images/googleplay.jpg");
 }
 
 .logo-image-3 {
-  background-image: url("../src/micro.png");
+  background-image: url("../src/images/micro.png");
 }
 
 .footer::after {
