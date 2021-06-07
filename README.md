@@ -39,32 +39,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+#Some asked quiestion
+Q How did you decide on the technical and architectural choices used as part of your solution?
+Most of the things are already mentioned in the assignment so for the technical I have used react that helps me to create the user interface more dynamic. React works on jsx format that means we can use javascript and html both in the same file and that helps to do things easily as compared to old methods and I have also use basic css beacuse advances css framewaork usage is not allowed in the assignment.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Q Are there any improvements you could make to your submission?
+Yes, I will make the user interface more attractive and create more sub-sections for movies and series section. I will add the home, about, signup, etc button in the navbar of the homepage.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Q What would you do differently if you were allocated more time?
+If I have more time to do this assignment then I will add more sections as in this assignment we have movies and series section only but I would like to create sub-sections of movies and series that will help to filter movies and series more precisely. I will also add thegoogle login button and signup button in the navbar section. I will also add movie reviews and ratings with each and every movie.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
