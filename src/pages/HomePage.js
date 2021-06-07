@@ -1,16 +1,16 @@
-import './App.css';
+import '../styles.css';
 
 import React from 'react';
 
-import NavBar from './assets/NavBar';
+import NavBar from '../assets/NavBar';
 
-import Footer from './assets/Footer';
-import Movies from "./assets/Movies";
-import Series from "./assets/Series";
+import Footer from '../assets/Footer';
+import Movies from './Movies';
+import Series from './Series';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-const App = () => {
+const HomePage = () => {
 	return (
 		<Router>
 			<NavBar />
@@ -23,4 +23,4 @@ const App = () => {
 	);
 };
 
-export default App;
+export default HomePage;

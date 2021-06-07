@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-import Loading from './Loading';
-const Movies = () => {
-
-	//using hooks
+import Loading from '../assets/Loading';
+const Series = () => {
+	//Using hooks
 	const [programs, setPrograms] = useState([]);
 	const [loading, setLoading] = useState(true);
-	
-	// Fetching data
+
+	//fetching data
 	const getUsers = async () => {
 		try {
 			const response = await fetch(
@@ -37,20 +36,23 @@ const Movies = () => {
 
 	return (
 		<>
-			<h2 className="movies-section-h2">Popular Movies</h2>
-			<div className="movies">
-				{programs.map((current) => {
-					const { title, programType, releaseYear, images } = current;
-					if (releaseYear > 2010) {
-						if (programType === 'movie') {
-							return (
-								<div className="movies-img">
-									<div>
-										<img src={images['Poster Art'].url} />
+			<h2 className="series-section-h2">Popular Series</h2>
+			<div className="series">
+				{programs.map((current, key) => {
+					const { images, title, programType, releaseYear } = current;
+					if (key < 22) {
+						console.log(key);
+						if (releaseYear > 2010) {
+							if (programType === 'series') {
+								return (
+									<div className="series-img">
+										<div>
+											<img src={images['Poster Art'].url} />
+										</div>
+										<h4>{title}</h4>
 									</div>
-									<h4>{title}</h4>
-								</div>
-							);
+								);
+							}
 						}
 					}
 				})}
@@ -59,4 +61,4 @@ const Movies = () => {
 	);
 };
 
-export default Movies;
+export default Series;
