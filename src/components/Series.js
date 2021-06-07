@@ -39,20 +39,24 @@ const Series = () => {
 		<>
 			<h2 className="series-section-h2">Popular Series</h2>
 			<div className="series">
-				{programs.map((current) => {
+				{programs.map((current, key) => {
 					const { images, title, programType, releaseYear } = current;
-					if (releaseYear > 2010) {
-						if (programType === 'series') {
-							return (
-								<div className="series-img">
-									<div>
-										<img src={images['Poster Art'].url} />
+					if (key < 22) {
+						console.log(key);
+						if (releaseYear > 2010) {
+							if (programType === 'series') {
+								return (
+									<div className="series-img">
+										<div>
+											<img src={images['Poster Art'].url} />
+										</div>
+										<h4>{title}</h4>
 									</div>
-									<h4>{title}</h4>
-								</div>
-							);
+								);
+							}
 						}
 					}
+					
 				})}
 			</div>
 		</>
