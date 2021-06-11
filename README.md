@@ -42,13 +42,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Some asked quiestion
 
 ## Q How did you decide on the technical and architectural choices used as part of your solution?
-Most of the things are already mentioned in the assignment so for the technical I have used react that helps me to create the user interface more dynamic. React works on jsx format that means we can use javascript and html both in the same file and that helps to do things easily as compared to old methods and I have also use basic css beacuse advances css framewaork usage is not allowed in the assignment.
-
+Most of the things are already mentioned in the assignment so for the technical I have used react that helps me to create the user interface more dynamic. React works on jsx format that means we can use javascript and html both in the same file and that helps to do things easily as compared to old methods and I have also use basic css beacuse advances css framewaork usage is not allowed in the assignment. For the architecture, I have used single-page web app architectire and I have used this approach because in this website design approach new page content is not served from loading new HTML pages but generated dynamically through JavaScript's ability to manipulate the DOM elements on the existing page itself. 
 
 ## Q Are there any improvements you could make to your submission?
 Yes, I will make the user interface more attractive and create more sub-sections for movies and series section. I will add the home, about, signup, etc button in the navbar of the homepage.
 
 
 ## Q What would you do differently if you were allocated more time?
-If I have more time to do this assignment then I will add more sections as in this assignment we have movies and series section only but I would like to create sub-sections of movies and series that will help to filter movies and series more precisely. I will also add thegoogle login button and signup button in the navbar section. I will also add movie reviews and ratings with each and every movie.
+If I have more time to do this assignment then I will add more sections as in this assignment we have movies and series section only but I would like to create sub-sections of movies and series that will help to filter movies and series more precisely. I will also add thegoogle login button and signup button in the navbar section and I will also add movie reviews and ratings with each and every movie.
 
