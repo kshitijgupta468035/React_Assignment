@@ -106,6 +106,51 @@
 
 }
 
+@media (max-width: 500px) {
+
+  /* Header section */
+  .show-btn, .hide-btn {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 60px;
+    right: -120%;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+
+  .list-items {
+    display: block;
+  }
+
+  .list-items .links {
+    display: block;
+  }
+
+  #chk:checked~.menu {
+    right: -70px;
+  }
+
+  .header h2 {
+  float: left;
+  line-height: 60px;
+  padding: 0 20px;
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 10px;
+
+}
+
+
+
+}
+
 .heading2 {
   color: blue;
   margin-top: 20px;
@@ -127,6 +172,8 @@
 
 }
 
+
+
 .titles {
   display: flex;
   align-items: center;
@@ -141,6 +188,27 @@
 
 p {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+ .ser, .mov {
+  background-image: url("../src/images/seires.jpg");
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.inner-titles {
+  color: white;
+  font-size: 1rem;
+ 
+}
 }
 
 
